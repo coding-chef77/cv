@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <script src="resumeData.js" defer></script>
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -55,39 +57,31 @@
 
         <article>
           <h3>Utdanning</h3>
-          <div class="">
+          <div class="education-entry" data-index="0">
             <header>
-              <h4>Fronten-utvikling, Noroff</h4>
-              <time datetime="2021-03">03.21</time> -
-              <time datetime="2023-03">03.23</time>
+              <h4 id="education-title-0"></h4>
+              <time datetime="" id="education-start-0"></time> -
+              <time datetime="" id="education-end-0"></time>
             </header>
-            <p>
-              I min Utdanning fikk jeg innførinf i relavante bransjeverktøy som
-              anvendes innen webutvikling.
-            </p>
+            <p id="education-description-0"></p>
           </div>
 
-          <div class="">
+          <div class="education-entry" data-index="1">
             <header>
-              <h4>Bachelor ernæring, Atlantis MH</h4>
-              <time datetime="2008-08">08.08</time> -
-              <time datetime="2011-06">06.11</time>
+              <h4 id="education-title-1"></h4>
+              <time datetime="" id="education-start-1"></time> -
+              <time datetime="" id="education-end-1"></time>
             </header>
-            <p>
-              Bachelor i ernæring er et studium som gir ernæringsfaglig
-              grunnkompetanse. Studiet inkluderer også helsekommunikasjon, og
-              gir ferdigheter innen kostvurdering og veiledning i et
-              forebyggende perspektiv.
-            </p>
+            <p id="education-description-1"></p>
           </div>
 
-          <div class="">
+          <div class="education-entry" data-index="2">
             <header>
-              <h4>Kokkeskole, Karmsund/Godalen VGS</h4>
-              <time datetime="1993-08">08.93</time> -
-              <time datetime="1995-06">06.95</time>
+              <h4 id="education-title-2"></h4>
+              <time datetime="" id="education-start-2"></time> -
+              <time datetime="" id="education-end-2"></time>
             </header>
-            <p>Grunnfag kokk/servitør og VK1 kokkelinje.</p>
+            <p id="education-description-2"></p>
           </div>
         </article>
 
@@ -96,32 +90,20 @@
 
           <section>
             <h4>Faglig</h4>
-            <ul>
-              <li>Javascript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>React</li>
-              <li>VS Code</li>
-              <li>Bootstrap5</li>
-              <li>ChatGPT</li>
-              <li>Github</li>
-            </ul>
+            <ul id="fagligKompetanse"></ul>
           </section>
 
           <section>
             <h4>Personlig</h4>
-            <ul>
-              <li>Strukturert</li>
-              <li>Pålitelig</li>
-              <li>Lærevillig</li>
-              <li>Selvstendig</li>
-              <li>Inkluderende</li>
-              <li>Imøtekommende</li>
-              <li>Ansvarsfull</li>
-              <li>Kommunikasjon</li>
-            </ul>
+            <ul id="personligKompetanse"></ul>
+          </section>
+
+          <section>
+            <h4>Språk</h4>
+            <ul id="sprakKompetanse"></ul>
           </section>
         </article>
+
         <article>
           <h3>Om meg</h3>
           <p>
@@ -173,7 +155,7 @@
           </header>
           <p>
             Som den eneste kokken i oppstarten av Folkets Café, hadde jeg en
-            integrert rolle i den daglige driften av kjøkkenet
+            integrert rolle i den daglige driften av kjøkkenet.
           </p>
         </article>
         <article class="">
