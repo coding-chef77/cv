@@ -107,9 +107,15 @@ h1 {
 main {
   display: flex;
   justify-content: space-between;
+  gap: 22px;
 }
 
 .profil {
+  display: flex;
+  flex-direction: column;
+}
+
+.erfaring {
   display: flex;
   flex-direction: column;
 }
