@@ -78,6 +78,5 @@ cvData.erfaring.forEach((job) => {
   jobArticle.querySelector("p").textContent = job.description.trim();
   erfaringSection.appendChild(jobArticle);
 });
-
 // Remove the template article
 jobTemplate.remove();

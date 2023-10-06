@@ -9,112 +9,114 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <section>
-        <img id="profileImage" src="" alt="" />
-        <div>
-          <h1 id="profileName"></h1>
-          <p class="header-titler" id="profileTitle"></p>
-        </div>
-      </section>
-      <address>
-        <p id="profileAddress"></p>
-        <p>
-          <a id="profileEmail" href=""></a>
-        </p>
-        <p>
-          <a
-            id="profileLinkedIn"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          ></a>
-        </p>
-        <p>
-          <a id="profilePhone" href=""></a>
-        </p>
-      </address>
-    </header>
-
-    <main>
-      <section class="profil">
-        <h2>Profil</h2>
-
-        <article>
-          <h3>Profil</h3>
-          <p id="profileDescription"></p>
-        </article>
-
-        <article>
-          <h3>Utdanning</h3>
-          <div class="education-entry" data-index="0">
-            <header>
-              <h4 id="education-title-0"></h4>
-              <time datetime="" id="education-start-0"></time> -
-              <time datetime="" id="education-end-0"></time>
-            </header>
-            <p id="education-description-0"></p>
+    <div class="wrapper">
+      <header>
+        <section>
+          <img id="profileImage" src="" alt="" />
+          <div>
+            <h1 id="profileName"></h1>
+            <p class="header-titler" id="profileTitle"></p>
           </div>
+        </section>
+        <address>
+          <p id="profileAddress"></p>
+          <p>
+            <a id="profileEmail" href=""></a>
+          </p>
+          <p>
+            <a
+              id="profileLinkedIn"
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </p>
+          <p>
+            <a id="profilePhone" href=""></a>
+          </p>
+        </address>
+      </header>
 
-          <div class="education-entry" data-index="1">
+      <main>
+        <section class="profil">
+          <h2>Profil</h2>
+
+          <article>
+            <h3>Profil</h3>
+            <p id="profileDescription"></p>
+          </article>
+
+          <article>
+            <h3>Utdanning</h3>
+            <div class="education-entry" data-index="0">
+              <header>
+                <h4 id="education-title-0"></h4>
+                <time datetime="" id="education-start-0"></time> -
+                <time datetime="" id="education-end-0"></time>
+              </header>
+              <p id="education-description-0"></p>
+            </div>
+
+            <div class="education-entry" data-index="1">
+              <header>
+                <h4 id="education-title-1"></h4>
+                <time datetime="" id="education-start-1"></time> -
+                <time datetime="" id="education-end-1"></time>
+              </header>
+              <p id="education-description-1"></p>
+            </div>
+
+            <div class="education-entry" data-index="2">
+              <header>
+                <h4 id="education-title-2"></h4>
+                <time datetime="" id="education-start-2"></time> -
+                <time datetime="" id="education-end-2"></time>
+              </header>
+              <p id="education-description-2"></p>
+            </div>
+          </article>
+
+          <article>
+            <h3>Kompetanse</h3>
+
+            <section>
+              <h4>Faglig</h4>
+              <ul id="fagligKompetanse"></ul>
+            </section>
+
+            <section>
+              <h4>Personlig</h4>
+              <ul id="personligKompetanse"></ul>
+            </section>
+
+            <section>
+              <h4>Språk</h4>
+              <ul id="sprakKompetanse"></ul>
+            </section>
+          </article>
+
+          <article>
+            <h3>Om meg</h3>
+            <p id="omMeg"></p>
+          </article>
+          <article>
+            <h3>Referanser</h3>
+            <p id="referanser"></p>
+          </article>
+        </section>
+        <section class="erfaring" id="erfaringSection">
+          <h2>Erfaring</h2>
+
+          <article class="jobTemplate">
             <header>
-              <h4 id="education-title-1"></h4>
-              <time datetime="" id="education-start-1"></time> -
-              <time datetime="" id="education-end-1"></time>
+              <h4></h4>
+              <time datetime=""></time> -
+              <time datetime=""></time>
             </header>
-            <p id="education-description-1"></p>
-          </div>
-
-          <div class="education-entry" data-index="2">
-            <header>
-              <h4 id="education-title-2"></h4>
-              <time datetime="" id="education-start-2"></time> -
-              <time datetime="" id="education-end-2"></time>
-            </header>
-            <p id="education-description-2"></p>
-          </div>
-        </article>
-
-        <article>
-          <h3>Kompetanse</h3>
-
-          <section>
-            <h4>Faglig</h4>
-            <ul id="fagligKompetanse"></ul>
-          </section>
-
-          <section>
-            <h4>Personlig</h4>
-            <ul id="personligKompetanse"></ul>
-          </section>
-
-          <section>
-            <h4>Språk</h4>
-            <ul id="sprakKompetanse"></ul>
-          </section>
-        </article>
-
-        <article>
-          <h3>Om meg</h3>
-          <p id="omMeg"></p>
-        </article>
-        <article>
-          <h3>Referanser</h3>
-          <p id="referanser"></p>
-        </article>
-      </section>
-      <section class="erfaring" id="erfaringSection">
-        <h2>Erfaring</h2>
-
-        <article class="jobTemplate">
-          <header>
-            <h4></h4>
-            <time datetime=""></time> -
-            <time datetime=""></time>
-          </header>
-          <p></p>
-        </article>
-      </section>
-    </main>
+            <p></p>
+          </article>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
