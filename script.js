@@ -55,6 +55,12 @@ function populateList(listId, data) {
   });
 }
 
+document.querySelectorAll(".kompetanse-list ul").forEach((ul) => {
+  if (ul.children.length > 4) {
+    ul.classList.add("two-columns");
+  }
+});
+
 // For Om meg
 document.getElementById("omMeg").textContent = cvData.profil.omMeg.trim();
 

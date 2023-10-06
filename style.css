@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@700&display=swap");
+
 *,
 *::before,
 *::after {
@@ -17,6 +19,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   background-color: #f7f9fc;
+  font-family: "Lora", serif;
 }
 
 img,
@@ -58,7 +61,7 @@ h6 {
 
 .header-main {
   display: flex;
-  margin-top: 30px;
+  margin-top: 25px;
   border-bottom: 2px solid #d8d8d8;
   padding-bottom: 20px;
 }
@@ -94,8 +97,8 @@ address a:hover {
 
 #profileAddress {
   display: inline;
-  line-height: 2.5; 
-  vertical-align: middle; /
+  line-height: 2.5;
+  vertical-align: middle;
 }
 address i {
   margin-right: 5px; /* Space between icon and text */
@@ -109,7 +112,14 @@ img {
 }
 
 h1 {
+  font-family: "Merriweather", serif;
   font-size: 24px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  font-family: "Merriweather", serif;
   font-weight: bold;
 }
 
@@ -122,10 +132,110 @@ main {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .erfaring {
+  margin-top: 25px;
   border-left: 2px solid #d8d8d8;
   padding-left: 20px;
+}
+
+.erfaring h2 {
+  margin-bottom: 25px;
+}
+
+.profil {
+  margin-top: 25px;
+}
+
+.profil h2 {
+  margin-bottom: 25px;
+}
+
+/* For Erfainger og utdanning cards*/
+.jobTemplate,
+.education-entry {
+  padding: 15px 0;
+  background-color: #f9f9f9; /* light gray */
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.jobTemplate:first-of-type {
+  padding: 0;
+}
+
+.jobTemplate header,
+.education-entry header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.utdanning h3 {
+  margin-top: 30px;
+}
+.jobTemplate h4,
+.education-entry h4 {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0 0 2px 0;
+}
+
+.jobTemplate time,
+.jobTemplate .date-separator,
+.education-entry time,
+.education-entry .date-separator {
+  color: #888;
+}
+
+.jobTemplate p,
+.education-entry p {
+  margin-top: 10px;
+}
+
+/* Kompetanse */
+.kompetanse-list {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.kompetanse-list h4 {
+  flex-basis: 100px;
+  flex-shrink: 0;
+}
+
+.kompetanse-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.6;
+  column-count: 1; /* By default, use 1 column */
+  column-gap: 20px;
+}
+
+.kompetanse-list ul.two-columns {
+  column-count: 2; /* Use 2 columns when the class is added */
+  flex-basis: 300px;
+}
+
+.kompetanse h3 {
+  margin-bottom: 20px;
+}
+
+/* om meg */
+
+.ommeg h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ommeg #omMeg {
+  margin-bottom: 30px;
+}
+
+#referanser {
+  margin-top: 6px;
 }
