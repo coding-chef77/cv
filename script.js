@@ -12,7 +12,7 @@ document.getElementById("profileEmail").textContent =
   cvData.header.address.email;
 document.getElementById("profileLinkedIn").href =
   cvData.header.address.linkedIn;
-document.getElementById("profileLinkedIn").textContent = "LinkedIn Profile";
+document.getElementById("profileLinkedIn").textContent = "LinkedIn Profil";
 document.getElementById(
   "profilePhone"
 ).href = `tel:${cvData.header.address.phone.replace(/\s/g, "")}`;
